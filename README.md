@@ -1,4 +1,4 @@
-# bulbs2-editorial-workflow
+# bulbs2-editorial-workflow [![Build Status](https://travis-ci.org/theonion/bulbs2-editorial-workflow.svg?branch=master)](https://travis-ci.org/theonion/bulbs2-editorial-workflow)
 
 > do not pass go; do not collect $200
 
