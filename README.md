@@ -51,8 +51,8 @@ $ cd /path/to/virtualenvs
 $ virtualenv -p python3 bulbs2-editorial-workflow
 $ source bulbs2/bin/activate
 $ cd /path/to/bulbs2-editorial-workflow
-$ pip install -e .
-$ pip install "file://$(pwd)#egg=bulbs2-editorial-workflow[dev]"
+$ python setup.py install
+$ pip install -r requirements-dev.txt
 $ py.test tests
 ```
 
