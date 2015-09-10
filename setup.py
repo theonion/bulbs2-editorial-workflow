@@ -27,11 +27,11 @@ dev_requires = [
 
 install_requires = [
     "django>=1.8,<1.9",
-    "bulbs2",
+    "bulbs2==0.0.1",
 ]
 
 dependency_links = [
-    "-e git+https://github.com/theonion/bulbs2.git#egg=bulbs2",
+    "https://github.com/theonion/bulbs2/tarball/master#egg=bulbs2-0.0.1",
 ]
 
 server_requires = []
@@ -62,8 +62,8 @@ setup(
     author_email=author_email,
     packages=find_packages(),
     install_requires=install_requires,
-    tests_require=dev_requires,
     dependency_links=dependency_links,
+    tests_require=dev_requires,
     extras_require={
         "dev": dev_requires,
     },
