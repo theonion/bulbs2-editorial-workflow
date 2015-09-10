@@ -1,0 +1,9 @@
+language: python
+python:
+  - '3.4'
+install:
+  - travis_retry pip install -e .
+  - travis_retry pip install file://$(pwd)#egg=bulbs2-editorial-workflow[dev]
+script:
+  - py.test tests/
+sudo: false
